@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Restaurant menú</title>
+  <!-- Include Bootstrap CSS -->
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Definir flex container */
+    .menu__container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    /* Define flex items */
+    .menu__item {
+      flex: 1 1 300px;
+      margin: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 20px;
+      text-align: center;
+    }
+    .menu__item img {
+      width: 100%;
+      max-height: 150px;
+      object-fit: cover;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+    .menu__item h3 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+    .menu__item p {
+      font-size: 1rem;
+      margin-bottom: 10px;
+    }
+    .menu__item .price {
+      font-size: 1.25rem;
+      font-weight: bold;
+    }
+    /* Define section headings */
+    .menu__heading {
+      display: block;
+      margin: 30px 0 10px 0;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+
+<header class="header">
+<nav class="navbar navbar-expand-sm bg-light">
+
+  <!-- MENU DE OPCIONES: BOOTSTRAP -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="index.html">INICIO</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="menu.html">MENÚ PRINCIPAL</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="drinks.html">BEBIDAS</a>
+    </li>
+  </ul>
+</nav>
+</header>
+
+
+  <div class="container">
+    <!-- Platos del CHEF-->
+    <h2 class="menu__heading">PLATOS RECOMENDADOS</h2>
+    <div class="menu__container">
+      <div class="menu__item">
+        <img src="https://assets.bonappetit.com/photos/5a04d3a481ac2a5925c1c1c0/1:1/w_2560%2Cc_limit/miso-and-mayo-marinated-short-ribs-with-spicy-sauce.jpg" alt="menu item">
+        <h3>SHORT RIB & HIERBAS DE LA HUERTA</h3>
+      
+        <p class="price">$7.99</p>
+      </div>
+      <div class="menu__item">
+        <img src="https://cdn.shopify.com/s/files/1/0497/1659/2805/products/CARPACCIO_SALMON_100G_1200x.png?v=1675288735" alt="menu item">
+        <h3>MARINADO DE SALMON</h3>
+    
+        <p class="price">$5.99</p>
+      </div>
+      <div class="menu__item">
+        <img src="https://piccolaitalianh.com/wp-content/uploads/2020/09/AdobeStock_175852476-1400x935.jpeg" alt="menu item">
+        <h3>BRUSCHETTAS</h3>
+     
+        <p class="price">$9.99</p>
+      </div>
+    </div>
+    <!-- CARNES -->
+    <h2 class="menu__heading">CARNES & PESCADO</h2>
+    <div class="menu__container">
+      <div class="menu__item">
+        <img src="https://cloudfront-us-east-1.images.arcpublishing.com/coxohio/GV2G7DAIYPZTUE7UFNGEF4VBZE.jpg " alt="menu item">
+        <h3>Filet Mignon</h3>
+       
+        <p class="price">$32.99</p>
+      </div>
+      <div class="menu__item">
+        <img src="https://www.foodandwine.com/thmb/nesQwmMJ6zA4Fb0TtAThMwdn56g=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/steakhouse-style-rib-eyes-ft-recipe1118-235f4532bcf948efa82aab8065bb98d8.jpg" alt="menu item">
+        <h3>Rib Eye Steak</h3>
+
+        <p class="price">$32.99</p>
+      </div>
+      <div class="menu__item">
+        <img src="https://media.istockphoto.com/id/134528818/photo/blackened-salmon.jpg?s=612x612&w=0&k=20&c=eHf7yV4tL9z64t7HqD-jJC9F_DbHWfBC-W7T-9ts-OU=" alt="menu item">
+        <h3>Salmon</h3>
+    
+        <p class="price">$29.99</p>
+      </div>
+      <div class="menu__item">
+        <img src="https://www.jessicagavin.com/wp-content/uploads/2016/11/seared-ahi-tuna-with-haricot-verts-and-carrot-ginger-puree-600x900.jpg" alt="menu item">
+        <h3>ATUN</h3>
+       
+        <p class="price">$25.99</p>
+      </div>
+    </div>
+
+     <!-- GUARNICIONES -->
+      
+      <h2 class="menu__heading">GUARNICIONES</h2>
+      <div class="menu__container">
+        <div class="menu__item">
+            <img src="https://simplot-media.azureedge.net/-/media/foundation/recipes/us-recipes/asian-avocado-salad_103.jpg?rev=dc1dcc97dbc44929851709b3a1f200a4&hash=4AC690789DEEBCB13FBAC2461AC0B7EE" alt="menu item">
+            <h3>Ensalada Verde</h3>
+          
+            <p class="price">$9.99</p>
+          </div>
+          <div class="menu__item">
+            <img src="https://www.errenskitchen.com/wp-content/uploads/2014/06/Seriously-The-Best-Broccoli-of-Your-Life4.jpg" alt="menu item">
+            <h3>Vegetales Salteados</h3>
+        
+            <p class="price">$9.99</p>
+          </div>
+          <div class="menu__item">
+            <img src="https://img.buzzfeed.com/thumbnailer-prod-us-east-1/add60faa04424d5594fe11cd05c22ad1/101potatoesfinal.jpg?resize=1200:*" alt="menu item">
+            <h3>Pure de papas</h3>
+         
+            <p class="price">$9.99</p>
+          </div>
+          <div class="menu__item">
+            <img src="https://www.taketwotapas.com/wp-content/uploads/2021/10/Fry-Seasoning-Featured-Image-735x735.jpg" alt="menu item">
+            <h3>Papas Fritas</h3>
+         
+            <p class="price">$9.99</p>
+          </div>
+
+        </body>
+      </html>
